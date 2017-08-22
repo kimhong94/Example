@@ -14,6 +14,9 @@ import org.springframework.web.multipart.MultipartResolver;
 
 /**
  * Handles requests for the application home page.
+ * 
+ * branch1
+ * branch2
  */
 @Controller
 public class HomeController {

@@ -47,9 +47,9 @@ public class UploadController {
 	@RequestMapping(value="/uploadForm", method=RequestMethod.POST)
 	public String uploadForm(MultipartFile file, Model model) throws IOException, Exception{
 		
-		logger.info("originalName" + file.getOriginalFilename());
-		logger.info("size" + file.getSize());
-		logger.info("originalName" + file.getContentType());
+		logger.info("originalName : " + file.getOriginalFilename());
+		logger.info("size : " + file.getSize());
+		logger.info("originalName : " + file.getContentType());
 		
 		String savedName = uploadFile(file.getOriginalFilename(), file.getBytes());
 		
