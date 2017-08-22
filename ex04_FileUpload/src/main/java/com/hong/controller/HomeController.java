@@ -32,6 +32,7 @@ public class HomeController {
 	 * Simply selects the home view to render by returning its name.
 	 * master init
 	 * master2
+	 * master3
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
