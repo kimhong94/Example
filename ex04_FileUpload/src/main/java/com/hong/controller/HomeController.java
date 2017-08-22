@@ -37,6 +37,7 @@ public class HomeController {
 	 * master init
 	 * master2
 	 * master3
+	 * master4
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
