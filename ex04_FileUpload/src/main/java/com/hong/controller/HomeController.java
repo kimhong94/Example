@@ -25,6 +25,8 @@ import org.springframework.web.multipart.MultipartResolver;
  * b2
  * b3
  * b4
+ * b5
+ * b6
  */
 @Controller
 public class HomeController {
